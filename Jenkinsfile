@@ -77,8 +77,8 @@ pipeline {
                 script {
                     dir("${WORKSPACE}") {
                         sh '''
-                            docker-compose down
-                            docker-compose up -d
+                            docker compose down
+                            docker compose up -d
                             docker ps
                         '''
                     }
