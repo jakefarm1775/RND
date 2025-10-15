@@ -1,0 +1,9 @@
+services:
+  hw2:
+    image: jakefarm1775/rnd:latest
+    container_name: rnd
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /home/appserver/rnd
