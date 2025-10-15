@@ -96,6 +96,10 @@ pipeline {
                 script {
                     dir("${WORKSPACE}") {
                         sh """
+                            # Add a cleanup step to remove any stopped containers from previous builds
+                            echo "Pruning old docker containers and networks to prevent conflicts..."
+                            docker system prune -af
+
                             # Use the unique project name to bring up the environment
                             docker compose --project-name ${COMPOSE_PROJECT_NAME} up -d
                             
