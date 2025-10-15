@@ -78,7 +78,7 @@ pipeline {
                     dir("${WORKSPACE}") {
                         sh '''
                             docker compose down
-                            docker compose up -d
+                            docker compose up -d --remove-orphans
                             docker ps
                         '''
                     }
