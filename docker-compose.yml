@@ -1,9 +1,9 @@
-services:
-  hw2:
-    image: jakefarm1775/rnd:latest
-    container_name: rnd
+version: "3.8"
+services: 
+  rdassignment1:
+    image: jakefarm1775/rdassignment1
+    build: .
+    container_name: researchassignment1
     restart: always
-    ports:
-      - "8080:80"
-    volumes:
-      - /home/appserver/rnd
+    ports: 
+      - "80:80"
