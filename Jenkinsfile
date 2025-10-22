@@ -38,7 +38,7 @@ pipeline {
 
             agent {
 
-                label 'Appserver'
+                label 'appserver'
 
             }
 
@@ -65,7 +65,7 @@ pipeline {
 
             agent {
 
-                label 'Appserver'
+                label 'appserver'
 
             }
 
@@ -121,7 +121,7 @@ pipeline {
 
             agent {
 
-                label 'Appserver'
+                label 'appserver'
 
             }
 
