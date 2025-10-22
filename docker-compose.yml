@@ -6,4 +6,4 @@ services:
     container_name: researchassignment1
     restart: always
     ports: 
-      - "80:80"
+      - "90:90"
