@@ -6,7 +6,7 @@ pipeline {
 
         // Docker Hub credentials ID stored in Jenkins
 
-        DOCKERHUB_CREDENTIALS ='RND'
+        DOCKERHUB_CREDENTIALS ='cyber-3120'
 
         IMAGE_NAME ='jakefarm1775/rdassignment1'
 
