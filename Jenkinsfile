@@ -2,7 +2,7 @@ pipeline {
     agent any
  
     // Variable declared here is available to all stages
-    def app
+    app
  
     environment {
         // Docker Hub credentials ID stored in Jenkins
