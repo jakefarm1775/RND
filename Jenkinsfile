@@ -8,7 +8,7 @@ pipeline {
 
         DOCKERHUB_CREDENTIALS ='cyber-3120'
 
-        IMAGE_NAME ='jakefarm1775/rdassignment1'
+        IMAGE_NAME ='jakefarm1775/rnd'
 
     }
  
